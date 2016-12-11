@@ -21,7 +21,7 @@ class item_seeder extends Seeder
 
         $cat = new Item();
         $cat->jenis()->associate(2);
-        $cat->nama = 'Tiket';
+        $cat->nama = 'Catalog';
         $cat->harga = '300000';
         $cat->stock = 100;
         $cat->save();
