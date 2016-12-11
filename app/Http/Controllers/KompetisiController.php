@@ -6,6 +6,8 @@ use App\Peserta;
 use Illuminate\Http\Request;
 use App\Order;
 use Intervention\Image\ImageManagerStatic as Image;
+use App\Notifications\CompetitionRegistration;
+
 
 class KompetisiController extends Controller
 {
@@ -52,6 +54,8 @@ class KompetisiController extends Controller
             $peserta->photo3 = $filename;
         }
         $peserta->save();
+//        $peserta->notify(new CompetitionRegistration());
+
         return redirect()->route('kompetisi.index');
     }
 }

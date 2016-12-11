@@ -22,11 +22,6 @@ class ForeignKeys extends Migration
                 ->onUpdate('cascade');
             $table->primary(['order_id','item_id']);
         });
-        Schema::table('peserta', function(Blueprint $table) {
-            $table->foreign('order_id')->references('id')->on('order')
-                ->onDelete('cascade')
-                ->onUpdate('cascade');
-        });
         Schema::table('pembeli', function(Blueprint $table) {
             $table->foreign('order_id')->references('id')->on('order')
                 ->onDelete('cascade')

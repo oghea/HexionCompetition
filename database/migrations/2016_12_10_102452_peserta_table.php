@@ -16,7 +16,6 @@ class PesertaTable extends Migration
         Schema::create('peserta', function(Blueprint $table) {
             $table->increments('id');
             $table->string('email')->unique();
-            $table->integer('order_id')->unsigned();
             $table->string('first_name');
             $table->string('last_name')->nullable();
             $table->string('photo1');
