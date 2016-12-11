@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    {!!Form::open(['action' => 'PublikasiController@postOrder' , 'role' => 'form','class' => 'form-horizontal'])!!}
+    {!!Form::open(['action' => 'TiketController@store' , 'role' => 'form','class' => 'form-horizontal'])!!}
     <div class="form-group {{ $errors->has('email') ? ' has-error' : '' }}">
         <label class="col-xs-3 control-label">Email :</label>
         <div class="col-xs-8">
@@ -91,7 +91,7 @@
             <script
                     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                     data-key="{{ env('STRIPE_KEY') }}"
-                    data-amount="30000000"
+                    data-amount="10000000"
                     data-name="Stripe.com"
                     data-description="Widget"
                     data-locale="auto"
