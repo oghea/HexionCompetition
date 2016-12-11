@@ -20,14 +20,12 @@ Route::post('kompetisi/daftar', ['uses'=>'KompetisiController@store', 'as'=>'kom
 
 Route::get('tiket', ['uses'=>'TiketController@index', 'as'=>'tiket.index']);
 
+
 Route::get('koleksi', ['uses'=>'KoleksiController@index', 'as'=>'koleksi.index']);
 
 Route::get('publikasi', ['uses'=>'PublikasiController@index', 'as'=>'publikasi.index']);
-Route::post('publikasi', ['uses'=>'PublikasiController@choice', 'as'=>'publikasi.choice']);
-Route::get('publikasi/order', ['uses'=>'PublikasiController@listOrder', 'as'=>'publikasi.listOrder']);
-Route::post('publikasi/order', ['uses'=>'PublikasiController@processOrder', 'as'=>'publikasi.processOrder']);
-
-
+Route::get('publikasi/order', ['uses'=>'PublikasiController@order', 'as'=>'publikasi.order']);
+Route::post('publikasi/order', ['uses'=>'PublikasiController@postOrder', 'as'=>'publikasi.postOrder']);
 
 
 Route::get('about', ['uses'=>'AboutController@index', 'as'=>'about.index']);
