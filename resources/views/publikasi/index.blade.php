@@ -14,7 +14,7 @@
 			<div class="col-sm-6 text-center" style="margin-top: 50px;">
 				<img src="img/p5.jpg" class="img-responsive" style="height: 400px;width: 350px;margin: 0 auto;">
 				<div class="col-xs-12" style="margin-top: 30px;">
-					<button class="btn">PURCHASE</button>
+					<a href="{{url('/publikasi/order')}}" class="btn">PURCHASE</a>
 				</div>
 			</div>
 			<div class="col-sm-6">
