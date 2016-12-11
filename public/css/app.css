@@ -1,5 +1,10 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -7736,6 +7741,79 @@ button.close {
   margin-top: 30px;
   font-weight: 300;
   letter-spacing: 1px;
+}
+
+.about-header {
+  background-image: url("../img/p3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 82%;
+}
+
+@media (max-width: 768px) {
+  .about-header {
+    height: 300px;
+  }
+}
+
+.about-content {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+.about-content h3 {
+  font-weight: 200;
+  color: #000000;
+}
+
+.about-content h5 {
+  color: #000000;
+  font-weight: 200;
+}
+
+.about-info {
+  margin-top: 5%;
+}
+
+.about-info h4 {
+  color: #000000;
+}
+
+.about-info p {
+  margin-top: 30px;
+  padding: 0 10%;
+  line-height: 2;
+}
+
+.btn {
+  padding: 10px 40px;
+  color: #000000;
+  font-size: 12px;
+  border-radius: 0;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+.btn:hover {
+  color: #000000;
+  background-color: #d1d1d1;
+}
+
+.bn {
+  border: none;
+}
+
+.footer-papah {
+  margin: 100px 0;
+  height: 100px;
+}
+
+.red {
+  color: #ff0586;
 }
 
 /*# sourceMappingURL=app.css.map */

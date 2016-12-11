@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ config('app.name', 'SupremeSTAN') }}</title>
     {{--compiled assets--}}
-    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
 </head>
-<body id="app-layout">
+<body>
     @include('partials.navbar')
     @yield('content')
     @include('partials.footer')
