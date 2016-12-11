@@ -14,12 +14,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
-                <li><a href="{{url('/about')}}">ABOUT</a></li>
-                <li><a href="{{url('/kompetisi')}}">COMPETITION</a></li>
-                <li><a href="{{url('/koleksi')}}">COLLECTION</a></li>
-                <li><a href="{{url('/publikasi')}}">PUBLICATION</a></li>
-                <li><a href="{{url('/visit')}}">VISIT</a></li>
+                <li><a href="{{url('/')}}">HOME</a></li>
+                <li class="{{ str_contains(\Route::current()->getName(),'about.') ? 'active' : '' }}"><a href="{{url('/about')}}">ABOUT</a></li>
+                <li class="{{ str_contains(\Route::current()->getName(),'kompetisi.') ? 'active' : '' }}"><a href="{{url('/kompetisi')}}">COMPETITION</a></li>
+                <li class="{{ str_contains(\Route::current()->getName(),'koleksi.') ? 'active' : '' }}"><a href="{{url('/koleksi')}}">COLLECTION</a></li>
+                <li class="{{ str_contains(\Route::current()->getName(),'publikasi.') ? 'active' : '' }}"><a href="{{url('/publikasi')}}">PUBLICATION</a></li>
+                <li class="{{ str_contains(\Route::current()->getName(),'visit.') ? 'active' : '' }}"><a href="{{url('/visit')}}">VISIT</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
