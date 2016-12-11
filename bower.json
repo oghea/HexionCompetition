@@ -1,0 +1,17 @@
+{
+  "name": "kompetisi",
+  "description": "Buat hexion",
+  "main": "",
+  "authors": [
+    "oghea <a.pprayoga18@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

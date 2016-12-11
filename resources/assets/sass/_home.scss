@@ -1,0 +1,44 @@
+//Navbar
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar{
+  border-radius: 0;
+  border: none;
+  margin-top: 50px;
+  @include breakpoint($xs){
+    margin-top: 0;
+  }
+}
+
+.navbar-nav{
+  border-bottom: solid 1px;
+}
+
+
+.mobile{
+  display: none;
+  @include breakpoint($xs){
+    display: inline-block;
+  }
+}
+
+//header
+.img-center{
+  margin: 0 auto;
+}
+.header-section{
+  margin-top: $head;
+}
+.tulisan{
+  margin-top: $head;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
