@@ -91,7 +91,7 @@
             <script
                     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                     data-key="{{ env('STRIPE_KEY') }}"
-                    data-amount="30000000"
+                    data-amount="10000000"
                     data-name="Stripe.com"
                     data-description="Widget"
                     data-locale="auto"
