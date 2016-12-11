@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('kompetisi', ['uses'=>'KompetisiController@index', 'as'=>'kompetisi.index']);
-Route::get('kompetisi/daftar', ['uses'=>'KompetisiController@daftar', 'as'=>'kompetisi.daftar']);
+Route::get('kompetisi/daftar', ['uses'=>'KompentisiController@daftar', 'as'=>'kompetisi.daftar']);
 Route::post('kompetisi/daftar', ['uses'=>'KompetisiController@store', 'as'=>'kompetisi.store']);
 
 Route::get('tiket', ['uses'=>'TiketController@index', 'as'=>'tiket.index']);
@@ -23,6 +23,7 @@ Route::get('tiket', ['uses'=>'TiketController@index', 'as'=>'tiket.index']);
 Route::get('koleksi', ['uses'=>'KoleksiController@index', 'as'=>'koleksi.index']);
 
 Route::get('publikasi', ['uses'=>'PublikasiController@index', 'as'=>'publikasi.index']);
+
 
 Route::get('about', ['uses'=>'AboutController@index', 'as'=>'about.index']);
 
