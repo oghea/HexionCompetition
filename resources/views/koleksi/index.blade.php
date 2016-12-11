@@ -5,8 +5,7 @@
 		<div class="container">
 			<div class="about-content">
 				<h3>Photo Collection</h3>
-				<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</h5>
+				<h5>See Last year photo collection.</h5>
 				<h5>Seasson I</h5>
 			</div>
 		</div>

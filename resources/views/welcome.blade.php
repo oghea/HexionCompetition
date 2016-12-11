@@ -38,7 +38,7 @@
                 <img class="img-responsive img-center" src="img/p1.jpg">
             </div>
             <div class="col-xs-12 text-right">
-                <h4 class="tulisan">Helping Client Achieve Their Goals.</h4>
+                <h4 class="tulisan">EXHIBITION PHOTO BY MAD HARIS.</h4>
             </div>
         </div>
     </section>

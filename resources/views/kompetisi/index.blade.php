@@ -6,8 +6,8 @@
 		<div class="container">
 			<div class="about-content">
 				<h3>Photo Competition</h3>
-				<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</h5>
+				<h5>A unique photography competition to challenge the global photographic community.<br>
+					Gain widespread exposure and your work exhibited around the world, and win cash prizes along the way.</h5>
 				<h5>May 2, 2016 - January 31, 2017</h5>
 				<a href="{{url('/kompetisi/daftar')}}"><button class="btn bn">GET STARTED</button></a>
 			</div>
@@ -43,7 +43,7 @@
 		<div class="container">
 			<div class="col-xs-12" style="margin-top: 30px;">
 				<h4>How ?</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p>Just upload your best photos.</p>
 				<a href="{{url('/kompetisi/daftar')}}"><button class="btn">Click Here</button></a>
 			</div>
 		</div>
