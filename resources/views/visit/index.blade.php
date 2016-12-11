@@ -35,7 +35,7 @@
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<a href="{{url('/kompetisi/daftar')}}"><button class="btn" style="margin-top: 30px;">GET STARTED</button></a>
+						<a href="{{url('/tiket')}}"><button class="btn" style="margin-top: 30px;">GET STARTED</button></a>
 					</div>
 				</div>
 			</div>

@@ -19,6 +19,7 @@ Route::get('kompetisi/daftar', ['uses'=>'KompetisiController@daftar', 'as'=>'kom
 Route::post('kompetisi/daftar', ['uses'=>'KompetisiController@store', 'as'=>'kompetisi.store']);
 
 Route::get('tiket', ['uses'=>'TiketController@index', 'as'=>'tiket.index']);
+Route::post('tiket', ['uses'=>'TiketController@store', 'as'=>'tiket.store']);
 
 
 Route::get('koleksi', ['uses'=>'KoleksiController@index', 'as'=>'koleksi.index']);
