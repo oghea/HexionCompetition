@@ -13,12 +13,15 @@
 	<section class="foto-section"> 
 		<div class="container">
 			<div class="col-xs-12" style="margin-top: 50px;">
-				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/c1.jpg" ></div>
+				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/z1.jpg" ></div>
+				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/z2.jpg"></div>
+				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/z3.jpg"></div>
+				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/z4.jpg"></div>
+				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/z5.jpg"></div>
+				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/z6.jpg"></div>
+				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/c1.jpg"></div>
 				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/c2.jpg"></div>
 				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/c3.jpg"></div>
-				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/c4.jpg"></div>
-				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/c5.jpg"></div>
-				<div class="col-md-4 col-xs-12 col-sm-6 f"><img class="img-responsive" src="img/c6.jpg"></div>
 			</div>
 		</div>
 	</section>

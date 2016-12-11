@@ -35,7 +35,7 @@
     <section class="header-section">
         <div class="container">
             <div class="col-xs-12">
-                <img class="img-responsive img-center" src="img/p1.jpg">
+                <img class="img-responsive img-center" src="img/z3.jpg" style="height: 500px;width: 100%;">
             </div>
             <div class="col-xs-12 text-right">
                 <h4 class="tulisan">EXHIBITION PHOTO BY MAD HARIS.</h4>
