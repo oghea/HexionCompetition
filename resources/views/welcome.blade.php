@@ -23,11 +23,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">COMPETITION</a></li>
-            <li><a href="#">COLLECTION</a></li>
-            <li><a href="#">PUBLICATION</a></li>
-            <li><a href="#">VISIT</a></li>
+            <li><a href="{{url('/about')}}">ABOUT</a></li>
+            <li><a href="{{url('/kompetisi')}}">COMPETITION</a></li>
+            <li><a href="{{url('/koleksi')}}">COLLECTION</a></li>
+            <li><a href="{{url('/publikasi')}}">PUBLICATION</a></li>
+            <li><a href="{{url('/visit')}}">VISIT</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
